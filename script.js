@@ -6,9 +6,9 @@ function readTextFile(path)
     let file = new XMLHttpRequest();
     file.open("GET", path, false);
     file.onreadystatechange = function () {
-        if (rawFile.readyState === 4) {
-            if(rawFile.status === 200 || rawFile.status == 0) {
-                let text = rawFile.responseText;
+        if (file.readyState === 4) {
+            if(file.status === 200 || file.status == 0) {
+                let text = file.responseText;
                 return text;
             }
         }
