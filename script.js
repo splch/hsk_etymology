@@ -4,7 +4,7 @@ let chars = [['的','的','Of'],['了','了','Up'],['在','在','In'],['是','�
 function load_char(num) {
     let path = "data/" + chars[num][1] + '/';
 
-    document.getElementById("title").value = chars[num][1]+" — "+chars[2];
+    document.getElementById("title").value = chars[num][1]+" — "+chars[num][2];
     document.getElementById("orac").src = path + "O.svg";
     document.getElementById("bron").src = path + "B.svg";
     document.getElementById("seal").src = path + "S.svg";
