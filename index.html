@@ -9,20 +9,39 @@
 </head>
 
 <body>
-    <input id="char"></input>
-    <h1 id="def"></h1>
+    <input id="char" type="text" maxlength="1" minlength="1" size="2"></input>
+    <br>
+    <mark id="def"></mark>
     <hr>
 
     <div id="images">
-        <img id="orac" src="">
-        <img id="bron" src="">
-        <img id="seal" src="">
-        <h2 id="trad"></h2>
-        <h2 id="simp"></h2>
+        <figure>
+            <img id="orac" src="">
+            <figcaption>Oracle Bone Script</figcaption>
+        </figure>
+        <figure>
+            <img id="bron" src="">
+            <figcaption>Bronze Script</figcaption>
+        </figure>
+        <figure>
+            <img id="seal" src="">
+            <figcaption>Seal Scipt</figcaption>
+        </figure>
+        <figure>
+            <h2 id="trad"></h2>
+            <figcaption>Traditional</figcaption>
+        </figure>
+        <figure>
+            <h2 id="simp"></h2>
+            <figcaption>Simplified</figcaption>
+        </figure>
     </div>
 
-    <button id="before">Before</button>
-    <button id="next">Next</button>
+    <hr>
+    <div>
+        <button id="before">Before</button>
+        <button id="next">Next</button>
+    </div>
 
     <script src="script.js"></script>
 </body>
