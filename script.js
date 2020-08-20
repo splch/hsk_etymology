@@ -9,6 +9,7 @@ function load_char(num) {
     document.getElementById("orac").src = path + "j_0.svg";
     document.getElementById("bron").src = path + "b_0.svg";
     document.getElementById("seal").src = path + "s_0.svg";
+    document.getElementById("lius").src = path + "l_0.svg";
     document.getElementById("trad").innerText = chars[num][0];
     document.getElementById("simp").innerText = chars[num][1];
 }
@@ -69,6 +70,17 @@ document.getElementById("seal").onerror = function() {
     if (nums.seal !== 0) {
         nums.seal = 0;
         this.src = "data/" + chars[nums.char][1] + "/" + "s_" + nums.seal.toString() + ".svg"
+    }
+}
+
+document.getElementById("lius").onclick = function () {
+    nums.lius++;
+    this.src = "data/" + chars[nums.char][1] + "/" + "l_" + nums.lius.toString() + ".svg"
+}
+document.getElementById("lius").onerror = function() {
+    if (nums.lius !== 0) {
+        nums.lius = 0;
+        this.src = "data/" + chars[nums.char][1] + "/" + "l_" + nums.lius.toString() + ".svg"
     }
 }
 
