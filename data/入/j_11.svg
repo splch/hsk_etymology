@@ -1,13 +1,13 @@
 <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
- width="57.000000pt" height="49.000000pt" viewBox="0 0 57.000000 49.000000"
+ width="55.000000pt" height="51.000000pt" viewBox="0 0 55.000000 51.000000"
  preserveAspectRatio="xMidYMid meet">
 <metadata>
 Created by potrace 1.15, written by Peter Selinger 2001-2017
 </metadata>
-<g transform="translate(0.000000,49.000000) scale(0.100000,-0.100000)"
+<g transform="translate(0.000000,51.000000) scale(0.100000,-0.100000)"
 fill="#000000" stroke="none">
-<path d="M253 203 c-35 -36 -63 -72 -63 -79 0 -29 35 -12 80 38 47 52 47 52
-74 -5 32 -63 64 -100 52 -57 -19 63 -31 96 -38 105 -4 5 -8 15 -8 23 0 12 -23
-42 -32 42 -2 0 -31 -30 -65 -67z"/>
+<path d="M298 334 c-5 -4 -8 -32 -8 -63 0 -55 -1 -57 -70 -131 -39 -41 -70
+-78 -70 -83 0 -11 50 25 93 68 19 19 45 35 57 35 20 0 88 -34 135 -66 11 -8
+25 -14 33 -14 25 0 -7 39 -56 66 -69 40 -82 54 -83 88 -1 42 -22 110 -31 100z"/>
 </g>
 </svg>
